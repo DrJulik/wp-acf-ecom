@@ -1,0 +1,37 @@
+.navbar {
+    display: flex;
+    width: 100%;
+    .logo h1 {
+      flex: 25%;
+      font-size: 2rem;
+      margin: 3rem;
+    }
+  
+    .menu {
+      flex: 25%;
+      margin: 3rem;
+      ul {
+        display: flex;
+        justify-content: center;
+  
+        li {
+          font-size: 1.5rem;
+          list-style: none;
+          margin: 0 2rem;
+          cursor: pointer;
+          transition: all 0.5s ease 0s;
+  
+          &:hover {
+            transform: translateY(2px);
+            opacity: 0.7;
+          }
+        }
+      }
+    }
+    a {
+      font-size: 1.4rem;
+      margin: 3rem;
+      color: #4e4e4e;
+      text-decoration: none;
+    }
+  }
